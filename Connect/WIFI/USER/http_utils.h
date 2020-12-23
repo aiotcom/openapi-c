@@ -8,7 +8,7 @@
 #define POST_HTTP_ADD  "/api/operate"
 #define HOST_ADD       "protobuf.stepiot.com"
 #define CONTENT_TYPE   "application/json"
-#define HTTP_TOKEN     "eyJhbGciOiJIUzI1NiJ9.eyJncm91cEJybiI6IjEzMzk0NTIzNzc3OTIwNTMyNDkifQ.P7z47ML6hWAZaYytvs-lVS-X0H_vaMdTrAGDOEU7ZAQ"
+#define HTTP_TOKEN     "token字符串"
 void HTTP_Protocol_Init(void);
 void HTTP_SendCommand(uint8_t *act);
 #endif
